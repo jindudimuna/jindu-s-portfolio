@@ -31,6 +31,10 @@ a:hover {
   color: #fff;
 }
 
+a {
+  font-family: Prompt, Mukta Malar;
+}
+
 @media only screen and (max-width: 414px) {
   .img-text {
     margin-top: 10%;
