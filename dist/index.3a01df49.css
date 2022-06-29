@@ -1,0 +1,176 @@
+body {
+  background-color: #030b2c;
+}
+
+.animated-icon2 {
+  width: 30px;
+  height: 20px;
+  -o-transition: .5s ease-in-out;
+  cursor: pointer;
+  margin: 0;
+  transition: all .5s ease-in-out;
+  position: relative;
+  transform: rotate(0deg);
+}
+
+.animated-icon2 span {
+  height: 3px;
+  width: 100%;
+  opacity: 1;
+  -o-transition: .25s ease-in-out;
+  background: #e3f2fd;
+  border-radius: 9px;
+  transition: all .25s ease-in-out;
+  display: block;
+  position: absolute;
+  left: 0;
+  transform: rotate(0deg);
+}
+
+.animated-icon2 span:nth-child(1) {
+  top: 0;
+}
+
+.animated-icon2 span:nth-child(2), .animated-icon2 span:nth-child(3) {
+  top: 10px;
+}
+
+.animated-icon2 span:nth-child(4) {
+  top: 20px;
+}
+
+.animated-icon2.open span:nth-child(1) {
+  width: 0%;
+  top: 11px;
+  left: 50%;
+}
+
+.animated-icon2.open span:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.animated-icon2.open span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+.animated-icon2.open span:nth-child(4) {
+  width: 0%;
+  top: 11px;
+  left: 50%;
+}
+
+.navbar {
+  background-color: #ff4500;
+  border-radius: 10px;
+}
+
+.name {
+  color: #eaeae7;
+  font-family: Prompt, sans-serif, Mukta Malar;
+  font-size: 1rem;
+}
+
+.container {
+  backdrop-filter: blur(5.9px);
+  -webkit-backdrop-filter: blur(5.9px);
+  padding: 2%, 0;
+  background: #09303c66;
+  border: 1px solid #09303c5c;
+  border-radius: 16px;
+  flex-flow: column wrap;
+  display: flex;
+  box-shadow: 0 4px 30px #0000001a;
+}
+
+.greeting {
+  font-family: "Exo", ;
+  color: #ff8743;
+  font-size: 1.5rem;
+}
+
+.role1 {
+  color: #eaeae7;
+  font-family: Prompt, Mukta Malar;
+  font-size: 1.5rem;
+}
+
+.role2 {
+  color: #eaeae7;
+  font-family: "Prompt", ;
+  font-size: 1.5rem;
+}
+
+.role3 {
+  color: #eaeae7;
+  font-family: Prompt, Mukta Malar;
+  font-size: 1.5rem;
+}
+
+.pic {
+  width: 30%;
+}
+
+.face {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 2%;
+  display: flex;
+}
+
+.about {
+  padding-top: 5%;
+}
+
+.description {
+  color: #eaeae7;
+  margin: 2%;
+  font-family: Prompt, Mukta Malar;
+  font-size: 1rem;
+}
+
+.footer {
+  margin-top: 5%;
+}
+
+.skills {
+  color: #eaeae7;
+  font-family: Prompt, Mukta Malar;
+  display: flex;
+}
+
+.fa-brands {
+  color: #ff4500;
+  padding: .8em;
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 414px) {
+  .face {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  .pic {
+    width: 60%;
+    height: auto;
+  }
+
+  .description {
+    line-height: 1.5rem;
+  }
+
+  .fa-brands::hover {
+    font-size: 4rem;
+  }
+
+  .skills {
+    padding-left: 8%;
+  }
+
+  .container {
+    padding-left: 7%;
+  }
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */

@@ -31,12 +31,15 @@ rel="stylesheet"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
 >
 </script>
-<script src="index.js"></script>
+
+
   <link href="style.css" rel="stylesheet" />
+  <link href="base.css" rel="stylesheet" />
 
     <title>Jindu</title>
 </head>
 <body>
+
 
     <section class="mb-3">
         <nav class="navbar navbar-dark">
@@ -70,33 +73,38 @@ rel="stylesheet"
 
       </div>
 
-      <div class="about">
-      <div class="face">   
-         <img src="/Jinduweb.jpg" class="pic" />
-         <h1 class="description">Jindu is a Front-End Developer, I also have(5+ years) design experience in urban
-            fashion. My transition into Tech started November 2021.
-            Please take a look at my projects, both ongoing and completed.
-            Do not hesistate to  <a href="mailto:danieldimuna@gmail.com"> contact me</a> for further enquiries.
-         </h1>
-        
+      <div data-scroll-container>
+
+        <div data-scroll-section class="about">
+          <div class="face">   
+             <img src="/Jinduweb.jpg" class="pic" />
+             <h1 class="description">Jindu is a Front-End Developer, I also have(5+ years) design experience in urban
+                fashion. My transition into Tech started November 2021.
+                Please take a look at my projects, both ongoing and completed.
+                Do not hesistate to  <a href="mailto:danieldimuna@gmail.com"> contact me</a> for further enquiries.
+             </h1>
+            
+            </div>
+      
+          </div>
+    
+          <div class="skills">
+            <h1 class="stack">Skills</h1>
         </div>
-  
+            <div data-scroll-section class="icons">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-bootstrap"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-figma"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-js-square"></i>
+            </div>
+
       </div>
 
-      <div class="skills">
-        <h1 class="stack">Skills</h1>
-    </div>
-        <div class="icons">
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-bootstrap"></i>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-figma"></i>
-            <i class="fa-brands fa-react"></i>
-            <i class="fa-brands fa-js-square"></i>
-        </div>
-       
- 
+      <script src="index.js"></script>
+
 
       <footer class="footer text-center text-white">
         <!-- Grid container -->
@@ -128,5 +136,7 @@ rel="stylesheet"
         </div>
         <!-- Copyright -->
       </footer>
+      <script type="module" src="scroll.js"></script>
+     
 </body>
 </html>

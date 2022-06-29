@@ -167,7 +167,7 @@ left: 50%;
 }
 
 .skills{
-    display; flex;
+    display: flex;
     font-family: 'Prompt', 'Mukta Malar';
     color: #EAEAE7;
 }
