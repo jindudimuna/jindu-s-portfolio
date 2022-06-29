@@ -15,6 +15,9 @@ body{
     color: white;
 }
 
+a:hover {
+    color: #FF4500;
+}
 
 .img-text{
     padding: 3rem;
