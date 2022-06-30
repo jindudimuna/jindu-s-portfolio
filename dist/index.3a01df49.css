@@ -132,6 +132,11 @@ body {
   margin-top: 5%;
 }
 
+.animate__backInUp {
+  animate-delay: 6s;
+  animation-duration: 2s;
+}
+
 .skills {
   color: #eaeae7;
   font-family: Prompt, Mukta Malar;

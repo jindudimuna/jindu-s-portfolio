@@ -168,6 +168,10 @@ left: 50%;
     margin-top: 5%;
 }
 
+.animate__backInUp{
+    animation-duration:2s;
+    animate-delay: 6s;
+}
 .skills{
     display: flex;
     font-family: 'Prompt', 'Mukta Malar';
