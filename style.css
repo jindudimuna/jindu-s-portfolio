@@ -168,7 +168,7 @@ left: 50%;
     margin-top: 5%;
 }
 
-.animate__backInUp{
+.animate__fadeInLeft{
     animation-duration:2s;
     animate-delay: 6s;
 }

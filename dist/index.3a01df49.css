@@ -132,7 +132,7 @@ body {
   margin-top: 5%;
 }
 
-.animate__backInUp {
+.animate__fadeInLeft {
   animate-delay: 6s;
   animation-duration: 2s;
 }
