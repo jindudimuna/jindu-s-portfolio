@@ -133,7 +133,7 @@ body {
 }
 
 .animate__fadeInLeft {
-  animate-delay: 6s;
+  animate-delay: 12s;
   animation-duration: 2s;
 }
 

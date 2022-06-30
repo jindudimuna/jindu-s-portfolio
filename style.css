@@ -170,7 +170,7 @@ left: 50%;
 
 .animate__fadeInLeft{
     animation-duration:2s;
-    animate-delay: 6s;
+    animate-delay: 12s;
 }
 .skills{
     display: flex;
