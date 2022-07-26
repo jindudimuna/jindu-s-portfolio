@@ -36,8 +36,21 @@ a{
 
 .animate__backInDown{
     animation-duration:2s;
+    margin-top:10%;
+
 }
 
+
+.homepage{
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+
+}
+
+.fa-solid{
+    font-size: 2em;
+}
 @media only screen and (max-width :414px){
 .img-text{
     
@@ -50,5 +63,7 @@ a{
 .pics{
     margin-left: 25%;
 }
-
+.fa-solid{
+    font-size: 1.5em;
+}
 }
