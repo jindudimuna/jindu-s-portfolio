@@ -185,6 +185,11 @@ left: 50%;
 
 }
 
+.menu-pages{
+font-size:1.5em;
+color: #FF4500;
+
+}
 @media only screen and (max-width :414px){
     .face{
         display: flex;
