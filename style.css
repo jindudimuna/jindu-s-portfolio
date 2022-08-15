@@ -3,7 +3,9 @@ body{
 }
 
 /* Icon 1 */
-
+html{
+    scroll-behavior: smooth;
+}
 
 .animated-icon2 {
 width: 30px;
